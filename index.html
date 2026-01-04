@@ -1,68 +1,70 @@
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta charset="UTF-8">
   <title>Hisham Alkhalidi | Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-<!-- HERO -->
-<section class="hero">
-  <div class="hero-content">
-    <h1>هشام الخليدي</h1>
-    <p>طالب تكنولوجيا المعلومات | IT Student</p>
-    <a href="#contact" class="btn">تواصل معي</a>
+<!-- زر تبديل الوضع -->
+<button class="theme-toggle" onclick="toggleTheme()">🌙</button>
+
+<!-- الهيدر -->
+<header class="hero">
+  <h1>هشام الخليدي</h1>
+  <p>طالب تكنولوجيا المعلومات | IT Student</p>
+
+  <div class="buttons">
+    <a href="https://github.com/iiis9iii" target="_blank">GitHub</a>
+    <a href="https://ye.linkedin.com/in/hisham-alklyde-88123b2a9" target="_blank">LinkedIn</a>
+    <a href="https://wa.me/967736217674" target="_blank">WhatsApp</a>
   </div>
+</header>
 
-  <!-- رسومات -->
-  <svg class="hero-shape" viewBox="0 0 500 150" preserveAspectRatio="none">
-    <path d="M0,50 C150,150 350,0 500,80 L500,0 L0,0 Z"></path>
-  </svg>
-</section>
-
-<!-- ABOUT -->
+<!-- عني -->
 <section class="section">
   <h2>نبذة عني</h2>
   <p>
     أنا هشام مراد شائف الخليدي، طالب تكنولوجيا المعلومات.
-    مهتم بالبرمجة وبناء المواقع وفهم الأنظمة التقنية الحديثة.
+    مهتم بالبرمجة وبناء المواقع وتطوير مهاراتي التقنية.
   </p>
 </section>
 
-<!-- SKILLS -->
-<section class="section gray">
+<!-- المهارات -->
+<section class="section">
   <h2>المهارات</h2>
   <div class="cards">
     <div class="card">Java</div>
     <div class="card">C++</div>
     <div class="card">Python</div>
-    <div class="card">HTML & CSS</div>
-    <div class="card">GitHub</div>
+    <div class="card">HTML</div>
+    <div class="card">CSS</div>
   </div>
 </section>
 
-<!-- PROJECTS -->
+<!-- المشاريع -->
 <section class="section">
-  <h2>مشاريع</h2>
+  <h2>مشروع</h2>
   <div class="project">
     <h3>Personal Portfolio</h3>
-    <p>موقع شخصي احترافي باستخدام HTML و CSS ومتجاوب مع جميع الشاشات.</p>
+    <p>موقع شخصي احترافي باستخدام HTML و CSS مع دعم الوضع الداكن والفاتح.</p>
   </div>
 </section>
 
-<!-- CONTACT -->
-<section id="contact" class="section gray">
-  <h2>تواصل معي</h2>
-  <p>📧 Hisham1000020000@gmail.com</p>
-  <p>💻 <a href="https://github.com/iiis9iii" target="_blank">GitHub</a></p>
-  <p>🔗 <a href="https://ye.linkedin.com/in/hisham-alklyde-88123b2a9" target="_blank">LinkedIn</a></p>
+<!-- التواصل -->
+<section class="section">
+  <h2>التواصل</h2>
+  <p>📧 البريد: Hisham1000020000@gmail.com</p>
+  <p>📞 واتساب: +967 736217674</p>
 </section>
 
 <footer>
   © 2026 Hisham Alkhalidi
 </footer>
 
+<script src="script.js"></script>
 </body>
 </html>
